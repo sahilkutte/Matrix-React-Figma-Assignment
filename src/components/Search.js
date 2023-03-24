@@ -4,7 +4,7 @@ import { useState,useRef } from "react"
 
 const Result=()=>{
 
-    const city=useRef()
+    const city=useRef();
     const [data,setData]=useState();
 
     const api={
